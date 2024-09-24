@@ -2,6 +2,7 @@ import React from "react";
 import { Layout } from "antd";
 import Index from "../../Components/Header/Index";
 import IFooter from "../../Components/Footer/Index";
+import { useNavigate } from 'react-router-dom';
 
 
 const Dashboard = () => {
@@ -38,6 +39,11 @@ const Dashboard = () => {
     color: "#fff",
     backgroundColor: "#0a1549",
   };
+  const navigate = useNavigate();
+  const goToform = () => {
+ 
+    navigate('/Form'); 
+};
   return (
     <>
       <Layout style={layoutStyle}>
@@ -56,7 +62,7 @@ const Dashboard = () => {
                 padding: "8px",
               }}
             >
-              <div>test</div>
+              <div onClick={goToform}>test</div>
               <div>icon</div>
             </div>
             <div
