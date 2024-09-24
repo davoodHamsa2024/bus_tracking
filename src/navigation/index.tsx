@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Dashboard from "../Screens/Dashboard/index";
+import Dashboard from "../Screens/Dashboard/Index";
 import BusForm from "../Screens/Userregister/Index";
 
 function Navigation() {

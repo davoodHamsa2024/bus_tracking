@@ -1,12 +1,19 @@
-import Dashboard from "./Screens/Dashboard/index";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./index.scss";
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Navigation from "./navigation";
+import LoginScreen from "./Screens/Loginscreen";
+import Dashboard from "./Screens/Dashboard/Index";
 
 function App() {
   return (
-    <>
-      <Dashboard />
-    </>
+    <Router>
+      <Navigation /> 
+      <Routes>
+        <Route path="/" element={<LoginScreen />} />
+
+
+      </Routes>
+    </Router>
   );
 }
 
