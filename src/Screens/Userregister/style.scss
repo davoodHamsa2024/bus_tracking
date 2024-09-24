@@ -1,0 +1,111 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Form Styles */
+
+.ant-form {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ant-form-vertical .ant-form-item {
+  margin-bottom: 20px;
+}
+
+.ant-form-item-label {
+  font-weight: bold;
+  color: #666;
+}
+
+.ant-input {
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.ant-input:focus {
+  border-color: #66afe9;
+  box-shadow: 0 0 5px rgba(102, 175, 233, 0.6);
+}
+
+.ant-btn {
+  height: 40px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.ant-btn:hover {
+  background-color: #3e8e41;
+}
+
+.ant-btn-primary {
+  background-color: #4caf50;
+}
+
+.ant-btn-primary:hover {
+  background-color: #3e8e41;
+}
+
+/* Dynamic Fields Styles */
+
+.dynamic-fields {
+  margin-top: 20px;
+}
+
+.dynamic-fields .ant-space {
+  margin-bottom: 20px;
+}
+
+.dynamic-fields .ant-form-item {
+  margin-bottom: 10px;
+}
+
+/* Image Upload Styles */
+
+.image-uploads {
+  margin-top: 20px;
+}
+
+.image-uploads .ant-upload {
+  margin-bottom: 20px;
+}
+
+.image-uploads .ant-btn {
+  margin-bottom: 10px;
+}
+
+/* Divider Styles */
+
+.ant-divider {
+  margin: 20px 0;
+  border-top: 1px solid #ccc;
+}
+
+.ant-divider-horizontal {
+  margin: 20px 0;
+  border-top: 1px solid #ccc;
+}

@@ -1,4 +1,4 @@
-import Dashboard from "./Screens/Dashboard/Index";
+import Dashboard from "./Screens/Dashboard/index";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.scss";
 
